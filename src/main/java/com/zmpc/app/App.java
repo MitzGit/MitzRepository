@@ -16,6 +16,8 @@ public class App {
         System.out.println("Added new line 4.1 from Develop");
 		
 		System.out.println("Some modifications");
+
+        System.out.println("Added new lines of code");
     }
 
 }
