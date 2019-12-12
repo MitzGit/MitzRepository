@@ -8,6 +8,8 @@ public class App {
         System.out.println("Hello World!");
 
         System.out.println("Develop Branch code!");
+
+        System.out.println("Added new line 2");
     }
 
 }
