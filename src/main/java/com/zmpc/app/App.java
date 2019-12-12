@@ -9,7 +9,12 @@ public class App {
 
         System.out.println("Develop Branch code!");
 
+        System.out.println("Added new line 1 from Master");
+
         System.out.println("Added new line 2");
+
+        System.out.println("Added new line 3 from Master");
+
     }
 
 }
