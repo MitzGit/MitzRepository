@@ -15,6 +15,10 @@ public class App {
 
         System.out.println("Added new line 3 from Master");
 
+        System.out.println("Added new line 3.1 from Develop");
+
+        System.out.println("Added new line 4.1 from Develop");
+
     }
 
 }
