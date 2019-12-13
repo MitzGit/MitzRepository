@@ -42,6 +42,8 @@ public class App {
         Person person = new Person();
         person.setName("Alex");
         System.out.println(person);
+
+        System.out.println("New Line 11");
     }
 
 }
