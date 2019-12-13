@@ -18,6 +18,8 @@ public class App {
 		System.out.println("Some modifications");
 
         System.out.println("New Line 01");
+
+        System.out.println("New Line 02");
     }
 
 }
