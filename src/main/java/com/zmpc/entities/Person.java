@@ -1,7 +1,7 @@
 package com.zmpc.entities;
 
 /**
- * Created by Admin on 13.12.2019.
+ * Created by Alex Show on 13.12.2019.
  */
 public class Person {
 
@@ -10,6 +10,8 @@ public class Person {
     private String surname;
 
     private int age;
+
+    private String address;
 
     public String getName() {
         return name;
@@ -33,5 +35,13 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
