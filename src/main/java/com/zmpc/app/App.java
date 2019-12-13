@@ -33,6 +33,8 @@ public class App {
 
         System.out.println("New Line 07");
 
+        System.out.println("New Line 08");
+
         Person person = new Person();
         person.setName("Alex");
         System.out.println(person);
