@@ -27,6 +27,10 @@ public class App {
 
         System.out.println("New Line 04");
 
+        System.out.println("New Line 05");
+
+        System.out.println("New Line 06");
+
         Person person = new Person();
         person.setName("Alex");
         System.out.println(person);
