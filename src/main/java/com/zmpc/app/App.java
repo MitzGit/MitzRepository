@@ -1,5 +1,7 @@
 package com.zmpc.app;
 
+import com.zmpc.entities.Person;
+
 /**
  * Hello world!
  */
@@ -20,6 +22,11 @@ public class App {
         System.out.println("New Line 01");
 
         System.out.println("New Line 02");
+
+        System.out.println("New Line 03");
+
+        Person person = new Person();
+        person.setName("Alex");
     }
 
 }
