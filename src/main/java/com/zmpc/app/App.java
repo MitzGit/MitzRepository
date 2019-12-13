@@ -9,16 +9,31 @@ public class App {
 
         System.out.println("Develop Branch code!");
 
-        System.out.println("Added new line 1 from Master");
-
         System.out.println("Added new line 2");
-
-        System.out.println("Added new line 3 from Master");
 
         System.out.println("Added new line 3.1 from Develop");
 
         System.out.println("Added new line 4.1 from Develop");
 
+		System.out.println("Some modifications");
+
+        System.out.println("New Line 01");
+
+        System.out.println("New Line 02");
+
+        System.out.println("New Line 03");
+
+        System.out.println("New Line 04");
+
+        System.out.println("New Line 05");
+
+        System.out.println("New Line 06");
+
+        System.out.println("New Line 07");
+
+        Person person = new Person();
+        person.setName("Alex");
+        System.out.println(person);
     }
 
 }
