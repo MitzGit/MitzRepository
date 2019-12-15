@@ -3,9 +3,14 @@ package com.zmpc.app;
 import com.zmpc.entities.Person;
 
 /**
- * Hello world!
+ * Main Application Class
  */
 public class App {
+
+    /**
+     * Main method
+     * @param args Application arguments
+     */
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
@@ -22,7 +27,6 @@ public class App {
         System.out.println("New Line 01");
 
         System.out.println("New Line 02");
-
         System.out.println("New Line 03");
 
         System.out.println("New Line 04");
