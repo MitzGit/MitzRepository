@@ -1,15 +1,21 @@
 package com.zmpc.entities;
 
+import java.io.Serializable;
+
 /**
  * Created by Alex Show on 13.12.2019.
+ *
+ * @author Alex Show
  */
-public class Person {
+public class Person implements Serializable {
+
+    private static final long serialVersionUID = 1806909723125376356L;
 
     private String name;
 
     private String surname;
 
-    private int age;
+    private transient int age;
 
     private String address;
 

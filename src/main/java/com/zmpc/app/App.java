@@ -2,10 +2,32 @@ package com.zmpc.app;
 
 import com.zmpc.entities.Person;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Scanner;
+
+import static java.lang.Math.*;
+
 /**
  * Main Application Class
  */
 public class App {
+
+    private String title = "Title 01";
+
+    {
+        title = "Title 02";
+    }
+
+    {
+        title = "Title 02.2";
+    }
+
+    public App() {
+        title = "Title 03";
+    }
 
     /**
      * Main method
@@ -45,9 +67,44 @@ public class App {
 
         Person person = new Person();
         person.setName("Alex");
+        person.setAge(30);
         System.out.println(person);
 
         System.out.println("New Line 11");
+        System.out.println(PI);
+
+        List<String> names = new ArrayList<>();
+        names.add("Igor");
+        names.add("Serge");
+
+        for(String name: names){
+            System.out.println(name);
+        }
+
+        String[] arrayNames = new String[] {"Oleg", "Alex"};
+        for(String name: arrayNames){
+            System.out.println(name);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            // TODO
+            System.out.println(i);
+        }
+
+        //new Thread(() -> {});
+
+        System.out.println("Enter your Name:");
+        Scanner in = new Scanner(System.in);
+        person.setName(in.nextLine());
+
+        System.out.println("Your Name is : " + person.getName());
+
+
+        Date date = new Date();
+        LocalDate localDate = LocalDate.of(12,12,12);
+
+        App app = new App();
+        System.out.println(app.title);
     }
 
 }
