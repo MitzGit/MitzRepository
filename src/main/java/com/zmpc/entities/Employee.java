@@ -5,6 +5,8 @@ package com.zmpc.entities;
  */
 public class Employee extends Person {
 
+    private static final long serialVersionUID = -2477901717232935354L;
+
     private String position;
 
     public String getPosition() {

@@ -1,5 +1,6 @@
 package com.zmpc.app;
 
+import com.zmpc.classes.Processor;
 import com.zmpc.entities.Person;
 
 import java.time.LocalDate;
@@ -33,7 +34,7 @@ public class App {
      * Main method
      * @param args Application arguments
      */
-    public static void main(String[] args) {
+    public static void main(String... args) {
         System.out.println("Hello World!");
 
         System.out.println("Develop Branch code!");
@@ -93,9 +94,9 @@ public class App {
 
         //new Thread(() -> {});
 
-        System.out.println("Enter your Name:");
-        Scanner in = new Scanner(System.in);
-        person.setName(in.nextLine());
+        //System.out.println("Enter your Name:");
+        //Scanner in = new Scanner(System.in);
+        //person.setName(in.nextLine());
 
         System.out.println("Your Name is : " + person.getName());
 
@@ -105,6 +106,11 @@ public class App {
 
         App app = new App();
         System.out.println(app.title);
+
+        Processor<Integer> processor = new Processor<>();
+        processor.process(10, 20, (x, y) -> x + y);
+        (new Processor<Double>()).process(50.1, 20.0, (x, y) -> x - y);
+        (new Processor<String>()).process("Abc", "Def", (x, y) -> x + y);
     }
 
 }
